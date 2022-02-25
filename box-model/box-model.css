@@ -1,0 +1,36 @@
+body{
+    background-color: blueviolet;
+}
+
+
+div{
+    height:400px;
+    weight:500px;
+    background-color: aqua;
+
+    /* margin-top: 10px,  margin-right 20px, margin-bottom 30px, margin-left: 40px*/
+   
+   /* margin: 10px 20px 30px 40px;*/
+    /*margin: 20px 20px; */
+
+    margin: o auto;
+    margin-top: 100px;
+    
+    /* ovo udaljava odozgo 100px*/
+
+    /*  centriranje pomocu margine*/
+
+    border: 15px solid red;
+border-bottom: 30px solid yellow;
+    padding-left: 20px;
+    padding-top: 30px;
+    /*margina ne moze da umanji border . Granica izmedju dva elementa je margina*/
+}
+div p{ 
+
+    text-align: center;
+}
+h3{
+    margin-top: 100px; 
+    margin-bottom: 100px;
+} 

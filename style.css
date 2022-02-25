@@ -1,0 +1,35 @@
+h1 {
+    color:magenta;
+    text-transform: uppercase;
+    text-decoration: line-through;
+background-color: url("./slika.jpg");
+width:200px;
+/*width: 100%;
+height: auto; */
+
+}
+/* Klasa se selektuje - .ime-klasa */
+.naslov{
+    color:rgb(238, 0, 255);
+    text-decoration: underline;
+    text-align: center;
+}
+    #id {
+    color: green;
+    font-size:60px ;
+    text-decoration: line-through;
+    font-wight: 700;
+    }
+p{ 
+    color: green;
+    font-size:600px ;
+    text-decoration: underline;
+    text-align: center;
+}
+/* za domaci napraviti dva diva jedan ispod drugog
+jedan oznaciti preko klase  jedan preko Id, treci preko klase i IDa.
+orvi div - crvena pozadina
+drugi div-plava
+treci div -narandzasta
+i u svakom divu da ima po jedan <p> koji je centriran i koji je gadjan preko #id
+svaki div da ima po jedan <p> tag koji ce biti centriran */

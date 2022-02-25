@@ -1,0 +1,43 @@
+.div1{
+    width: 300px;
+    height: 850px;
+    background-color: rosybrown;
+    margin: 100px auto;
+    border: 1px solid rgb(230, 83, 107);
+    border-radius: 25px;
+    
+    
+}
+.div1 img{
+  width: 300px;
+  border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    height: 200px;
+    
+}
+
+.div1 h1{
+    
+    text-align: center;
+    background-color: crimson;
+    font-style: oblique;
+    color: brown;
+
+    
+}
+.div1 h2{
+    text-decoration:rgb(168, 51, 100);
+    text-align: center;
+    padding: 1px auto;
+    background-color: blueviolet;
+
+}
+.div1 p{
+   text-align:center;
+
+    padding-left: 20px;
+    padding-right:30px;
+    padding-bottom: 15px;
+    padding-top: 
+}
+.div1 p:hover { background-color: black;}
