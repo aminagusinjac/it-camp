@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+
+
+.ikonica{
+    color: red;
+font-size: 600px;
+}
+ikonica1{
+    color: blue;
+}
+
+body{
+    font-family: "Roboto", sans-serif; 
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 65px;
+    font-weight: 100;    */ debljina slova se menja */
+}
