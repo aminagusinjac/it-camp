@@ -1,0 +1,62 @@
+   
+   html{
+font-size: 10px;
+   }
+   h1{    /* 1 rem je 10px odnosi se na glavni elemenat */
+       font-size: 6.5rem;
+   }
+   p{
+       font-size: 2.5rem;
+   }
+   /* .flex {
+    display: flex;
+
+    width: 100 %=100vw;
+    height:100vh !=100px;
+    background-color: darkblue;
+}
+
+.unutar-flexa-prvi {
+    width: 25%;
+    height: 300px;
+    background-color: green;
+}
+.unutar-flexa-drugi {
+    width: 25%;
+    height: 300px;
+    background-color: rgb(14, 24, 14);
+}
+.unutar-flexa-treci {
+    width: 25%;
+    height: 300px;
+    background-color: rgb(128, 0, 85);
+}
+.unutar-flexa-cetvrti {
+    width: 25%;
+    height: 300px;
+    background-color: rgb(10, 51, 54);
+}
+.{
+    font-size: ; /* sa fontovima nikad ne koristimo % */
+
+.vh-vw {     
+   height: 100vh; 
+   width: 20vw;
+   background-color: black;
+}
+
+.nav{
+    height: 20vh;
+background-color: blue;
+}
+ .em {
+font-size: 100px;
+ }
+ .em span{
+     font-size:1em;  /* em uvek uzima svog prethodnika to je u ovom slucaju 1oopx */
+ }
+
+ p{
+font-size: 1rem;  /* zavisi od html kolko smo stavili a to je 10px  */
+
+ }
