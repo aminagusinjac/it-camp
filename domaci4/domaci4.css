@@ -1,0 +1,37 @@
+body{
+    margin: 0 auto;
+    background-color: wheat;
+}
+
+.prvi{
+    width: 200px;
+    height:200px;
+    background-color: rosybrown;
+    margin: 15px;
+    display: inline-block;
+}
+.drugi {
+    width: 200px;
+    height: 200px;
+    background-color: royalblue;
+    margin: 15px;
+    display: inline-block;
+}
+.treci {
+    width: 200px;
+    height: 200px;
+    background-color: burlywood;
+    margin: 15px;
+    display: inline-block;
+}
+.cetvrti {
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    display: inline-block;
+    background-color: brown;
+}
+
+
+
+
