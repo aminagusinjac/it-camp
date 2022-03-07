@@ -1,0 +1,39 @@
+* {
+    margin:0;
+}
+.navbar{
+    height: 10 vh;
+    background-color: aquamarine;
+
+}
+.hero {
+    height: 30vh;
+    width: 100%;
+    background-color: blueviolet;
+    padding-bottom: 2000px;
+}
+.footer{
+    
+    height: 10vh;
+    width: 100%;
+
+    background-color: brown;
+    position: fixed;
+    bottom: 0px;
+    left:0px;
+}
+.relative{
+    position: relative;
+    width:50%;
+    margin: 0 auto;
+    height: 20vh;background-color: red;
+}
+.absolute{
+position: absolute;
+top: 80px;
+right: 0;
+width:200px;
+height: 300px;
+background-color: aqua;
+/*u div koji je relativ stavljamo div koji je absolute, nema absoluta bez relativa, fixed se koristi za footer, za navbar preporucljivo je stikiy*/
+}
