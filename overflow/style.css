@@ -1,0 +1,26 @@
+.div {
+
+    margin: 0 auto;
+    width:500px;
+    height:500px;
+    border: 1px solid red;
+    height: 150px;
+    overflow: visible;
+    background-color: rgb(255, 0, 0, 0,2);
+}
+h1 {
+    font-size: 50px;
+}
+
+.drugi {
+    background-color: blueviolet;
+}
+img {
+    width: 50px;
+    height: 150px;
+    object-fit: contein;
+    float: right;
+}
+p{
+    text-align: center;
+}
