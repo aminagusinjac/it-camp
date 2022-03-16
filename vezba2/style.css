@@ -19,25 +19,28 @@ font-size: 12px;
 }
 .home{
  width: 100%;
- height: 140vh;background-color: darkseagreen;
+ height: 90vh;
+ background-color: darkseagreen;
  
- justify-content: flex-start;
+ background-image: url(pozadina.jpg);
+ background-size:cover;
+  display: block;
+ 
+ justify-content: center;
  align-items: center;
- font-size: 12px;
+ font-size: 10px;
 }
-.home img{
- width:100%;
- height: 140vh;
- margin-bottom: -500px;
-}
+
 .home h1{
-    margin: 30px;
+    padding-top: 300px;
+    padding-left: 10px;
 }
 .home span {
     color: blue;
 }
 .home p{
-    margin:  20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 
     font-size: 13px;
 }
@@ -56,26 +59,27 @@ font-size: 12px;
 }
 .kartice {
     width: 100%;
-    height:100vh ;
+    height:200vh ;
     background-color: rgb(21, 143, 143);
     justify-content: center;
     align-items: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    margin-left: 5px;
 }
 .kartica1 {
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     background-color: darksalmon;
     margin:5px;
-    justify-self: center;
-align-items: baseline;
-}
+
+
 .kartica1 h1{
      text-align: center;
-font-size: 20px;
-display: block;
-margin: 5px;
+ font-size: 20px;
+
+    
 
 }
 .kartica1 p{
@@ -85,9 +89,7 @@ margin: 5px;
     color: blue;
 
 }
-.kartice :hover{
-background-color: blue;
-}
+
 .kartice i{
     padding: 10px;
 }
