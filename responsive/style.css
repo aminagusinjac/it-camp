@@ -1,0 +1,43 @@
+.res {
+    min-height: 150px;
+ 
+    background-color: red;
+}
+@media only screen and (max-width:768px){
+
+.res {
+    background-color: aqua; 
+     }
+}
+
+
+@media only screen and (max-width:1200px) {
+    .res {
+        background-color: aqua;
+    }
+}
+
+.container {
+display: flex;
+justify-content: center ;
+align-items: center;
+}
+
+.item {
+    width:75px;
+    height: 75px;
+    background-color:rosybrown;
+    margin: 14px
+    ;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        flex-direction: column;
+     
+    }
+    .item {
+        background-color: indigo;
+    }
+}
+
