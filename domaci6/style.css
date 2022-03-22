@@ -36,11 +36,13 @@ font-size: 12px;
 .home span {
     color: blue;
 }
-.home p{
-    margin:  20px;
 
-    font-size: 13px;
+    .home p{
+        margin:  20px;
+    
+        font-size: 13px;
 }
+
 .home form {
     margin-left: 40px;
 
