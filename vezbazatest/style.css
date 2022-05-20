@@ -1,0 +1,139 @@
+*{
+
+margin: 0;
+
+}
+.hero1{
+    width: 50%;
+
+    height:100vh;
+    background-color: antiquewhite;
+}
+.nav{
+    width: 100%;
+    height: 10vh;
+    background-color: beige;
+    display: flex;
+    justify-content: space-around;
+
+}
+.nav i {
+
+    color: red;
+
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.nav span {
+    color: red;
+}
+.nav h2 {
+    padding-top: 20px;
+}
+.nav a {
+text-decoration: none;
+color: black;
+padding-top: 30px;
+}
+.hero2 {
+    width:50%;
+    height: 100vh;
+background-image: url(hero2.webp);
+}
+.hero  {
+    display: flex;
+    justify-content: center;
+}
+
+.meet {
+
+    width: 300px;
+    height: 60vh;
+
+    padding-left:90px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.meet p {
+    padding-top: 20px;
+}
+
+.menu{
+    width: 100px;
+    height: 40px;
+    background-color: #ff6900;
+   border-radius: 35px;
+   display: flex;
+   justify-content: center;
+}
+.eat{
+    display: flex;
+    justify-content: center;
+}
+
+.menu p {
+color: beige;
+padding-bottom: 20px;
+padding-top: 10px;
+
+}
+
+.play{
+    color: #ff6900;
+margin-top: 10px;
+padding-left: 20px;
+}
+.contact
+{
+    color: white;
+    width: 170px;
+    height: 5vh;
+    background-color: #ff6900;
+    border-radius: 30px;
+    padding-top: 10px;
+    margin-left: 450px;
+    padding-left: 20px;
+}
+.best {
+    width: 100%;
+    height: 30vh;
+    background-color: aliceblue;
+    color: brown;
+    
+
+}
+
+
+.healthy{
+    width: 100%;
+    height: 70vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+
+}
+.meal {
+    height: 40vh;
+    width: 25%;
+    border: 1px solid #4D312C;
+    box-shadow: #4D312C 0px 1px 13px 1px ;
+}
+.food {
+    height: 40vh;
+    width: 25%;
+    border: 1px solid #4D312C;
+    box-shadow: #4D312C 0px 1px 13px 1px ;
+}
+.coffe {
+    height: 40vh;
+    width: 25%;
+    border: 1px solid #4D312C;
+    box-shadow: #4D312C 0px 1px 13px 1px ;
+}
+
+
+
+
+
+
