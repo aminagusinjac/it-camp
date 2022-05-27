@@ -1,4 +1,4 @@
-const godine = [12, 76, 26, 6, 233, 21, 29, 16]
+const godine = [12, 76, 26, 6, 233, 21, 29, 16];
 
 function returnAdults (ages) {}
 
@@ -42,7 +42,7 @@ console.log (cars);
 
 const imena = ["faris",  "isko", "aldinn"];
 
-const.age = [20, 100, 50, 120, 200, 76];
+const age = [20, 100, 50, 120, 200, 76];
 
 const spojeniNiz = imena.concat(age);
 console.log(spojeniNiz);
