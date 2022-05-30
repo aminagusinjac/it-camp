@@ -77,7 +77,7 @@ const DATA1 = [1, 3, 4, 2, 7, 14];
 
 const dogAgeToHuman = (ages) => {
      const humanAge = age.map((age) => {
-         if (el > 2 && el < 8) {
+         if (age > 2 && el < 8) {
              return (el * 4 )
          }
      })
