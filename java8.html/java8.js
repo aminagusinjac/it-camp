@@ -47,7 +47,7 @@ console.log(filteredArray);
 //MAP METODA
 
 //const numbers = [2, 5, 10, 3, 4, 8];
-
+                        
 //const squareNumbers = numbers.map((el) => Math.sqrt(el));
 
 //console.log(squareNumbers);
@@ -70,35 +70,90 @@ console.log(filteredArray);
 
 
 
-const DATA1 = [1, 3, 4, 2, 7, 14];
+//const DATA1 = [1, 3, 4, 2, 7, 14];
 
 //el > 2 = el * 7
 //el > 2  && el < 8 = (el*4) / 2 
 
-const dogAgeToHuman = (ages) => {
-     const humanAge = age.map((age) => {
-         if (age > 2 && el < 8) {
-             return (el * 4 )
-         }
-     })
+// const dogAgeToHuman = (ages) => {
+//      const humanAge = age.map((age) => {
+//          if (age > 2 && el < 8) {
+//              return (el * 4 )
+//          }
+//      })
 
 
-};
+// };
 
-console.log(dogAgeToHuman(DATA1));
-
-
+// console.log(dogAgeToHuman(DATA1));
 
 
+//MAP
+
+
+// const DATA = [100, 65, 76, 80, 99, 53, 1, 2];
+
+// const returnEven = (numbers) => {
+//     const evenNumber = numbers. filter((num) => num % 2 === 0 && num <= 50);
+
+// return evenNumbers;
+
+//     console.log(returnEven(DATA));
+//     //filter vraca niz, tj u ovom slucaju da nam vrati sve parne brojeve
+// }
+
+//zadatak 2
+
+// const DATA = [5, 3, 2, 8, 7, 9];
+
+// const returnPow = (numbers) => {
+//    const pow = numbers.map((el) => el* el + 10);
+
+//   //radi kvadrat pa dodaje 10
+//     return pow;
+// };
+
+// console.log(returnPow(DATA));
+
+
+//3 zadatak
+
+// const DATA =  [100, 200, 250, 400, 520];
+
+// const cartTotal = DATA.reduce (
+// (previousValue, currentValue) => previousValue + currentValue);
+
+// //sabira vrednosti 
+// console.log(previousValue, currentValue) => previousValue +  currentValue,
+// // 500
+// //);
+
+// const DATA = [26, 28, 16, 22, 30, 28]
+// //saberemo zbir svih ovih godina , pa posle podelimo sa brojem clanova
+
+// const sumAvgAge = (ages) =>  {
+//    const sumAvAge = (ages) => {
+//        ages.reduce((prevValue, CurValue) => prevValue + curValue) / ages.length)
+//        ;
+//        const average = sum / ages.length;
+
+//        return sum;
+
+//    }
+// };
 
 
 
+// console.log(sumAvgAge(DATA));
+
+// // console.log (returnPow(DATA));
 
 
+const cars = ["BMW", "Audi", "Smart"]
 
 
-
-
+cars.push ("Mercedes") //dodaje na zadnje mesto
+cars.unshift("pasat") //dodaje na prvo mesto
 
 
 
