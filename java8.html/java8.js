@@ -156,11 +156,10 @@ cars.push ("Mercedes") //dodaje na zadnje mesto
 cars.unshift("pasat") //dodaje na prvo mesto
 
 
-
-
-
-
-
+//ZADATAK 2KVADRAT SVAKOG CLANA PLUS 10 
+const data = [5,3,2,8,7,9]
+const Niz=DATA.map((el)=> el* el +10);
+console.log(Niz)
 
 
 
