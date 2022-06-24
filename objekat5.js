@@ -70,3 +70,4 @@ res= mojaFunc();
 res(5);  //ovaj mehanizam naziva se klozn (clousn)   
 
 
+

@@ -96,17 +96,40 @@
 
 // console.log(punoletni(niz));  
 
-const niz1=[1,68, 9,9,0,54,76,67]
-const niz2=["audi", "mercedes", "smart", "golf"]
-let niz3 = []
-niz3  = niz1.concat(niz2) //za spajanje 2 niza 
+// const niz1=[1,68, 9,9,0,54,76,67]
+// const niz2=["audi", "mercedes", "smart", "golf"]
+// let niz3 = []
+// niz3  = niz1.concat(niz2) //za spajanje 2 niza 
 
 
-console.log(niz3);
+// console.log(niz3);
 
+myPromise=new Promise ((resolve, reject ) => {
 
+     person ={
+        ime:" Aminaaa",
+        prezime: "Gusinjac",
+        age: 55,
+        celoIme: function(){
+            return this.ime + " " + this.prezime;
+        }
+   }
+ 
+   if(person.age> 25 &&   person.age<34 )  {
+    resolve(person.celoIme())
+   }
+   else{
+    reject(person.celoIme())
+   }
+});
 
-
+myPromise
+.then((arg)=> {
+                console.log(`Osoba${arg} ispunjava uslove`)
+            })
+                .catch((arg)=> {
+        console.log(`Osoba ${arg} ne ispunjava uslove`)
+    })
 
 
 
