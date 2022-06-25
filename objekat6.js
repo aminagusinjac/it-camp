@@ -54,17 +54,22 @@ function setTimeout(arg1, arg2, arg3) {
 //beking ono sto se nalazi unutra sto ne vidi korisnik
 
 
-const getUsers = () => {
-    fetch("htttp://jsplaceholder.typicode.com/todos/1").then((response)=> 
-    console.log(response.json())
-    ).then(res=> console.log(res));
-};   //json je objekat linija pomocu  koje stizemo iz bekenda 
+// const getUsers = () => {
+//     fetch("htttp://jsplaceholder.typicode.com/todos/1").then((response)=> 
+//     console.log(response.json())
+//     ).then(res=> console.log(res));
+// };   //json je objekat linija pomocu  koje stizemo iz bekenda 
 
 //.then((response) => console.log(response.json()))
 
 //drugi zadatak
  //pravimo niz Id-jeva
 
-const getUsers = () => {
-    fetch("")
-}
+const getUsers = async () => {
+    const response = await fetch("http://jsonplaceholder.typicode.com/posts");
+    const posts = await response.json();
+    return posts;
+
+};
+
+getUsers().then((res) => console.log(res));
