@@ -54,6 +54,54 @@ function setTimeout(arg1, arg2, arg3) {
 //beking ono sto se nalazi unutra sto ne vidi korisnik
 
 
+
+//zadatak objekti 
+
+
+//zadatak niz objekata 
+
+const students =[
+    {name:'Faris', grade: 9, year:2},
+{
+    name:'Faris', grade: 9, year:2
+},
+{
+    name:'Faris', grade: 9, year:2
+},
+{
+    name:'Faris', grade: 9, year:2
+},
+{
+    name:'Faris', grade: 9, year:2
+},{
+    name:'Faris', grade: 9, year:2
+},{
+    name:'Faris', grade: 9, year:2
+}]
+
+function getAvgarde(array){
+    const nizOcena =array.map((el)=> el.grade)
+    console.log(nizOcena)
+    const zbirOcena =  nizOcena.reduce((prev,curr)=> prev + curr)
+
+console.log(zbirOcena)
+
+const prosek = zbirOcena/nizOcena.length
+console.log(prosek)
+const zaokruzeno=prosek.toFixed(2)
+console.log(+zaokruzeno)
+return +zaokruzeno}
+console.log(getAvGrade(students))
+
+
+
+
+
+
+
+
+
+
 // const getUsers = () => {
 //     fetch("htttp://jsplaceholder.typicode.com/todos/1").then((response)=> 
 //     console.log(response.json())
@@ -70,6 +118,8 @@ const getUsers = async () => {
     const posts = await response.json();
     return posts;
 
+
+    
 };
 
 getUsers().then((res) => console.log(res));
